@@ -1,0 +1,15 @@
+# Euler-Lagrange residual of each candidate added term, evaluated on the central dynamics
+#   v' = a x + b v   (exact rational arithmetic at random rational points, symbolic a, b)
+# Scripts: central_lagr.py, central_lagr2.py, crofton_check.py, cp_check.py
+# "0" means identically zero (exact). Non-zero values are max |EL| over the sample points.
+
+candidate                                              central dynamics      non-central control
+ell = |x cross v| / |x|^2  (round sphere)              0 (exact)             0.84
+Crofton c=(b.n)^2                                      0 (exact)             0.19
+Crofton c=(b.n)^2 (d.n)^2                              0 (exact)             (not run)
+J/r^2 = ell  (the term in Crampin-Prince 1988)         0 (exact)             (not run)
+CONTROLS (must fail):
+|x cross v|   (no 1/|x|^2)                             1.95 / 1.26           3.70
+J/r                                                    0.37                  (not run)
+Crofton with wrong relative weight                     0.028                 0.32
+Crofton (b.n)^4 with one coefficient doubled           0.24                  (not run)

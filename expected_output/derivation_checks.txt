@@ -1,0 +1,6 @@
+(a) Hessian identity residual: Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])
+(b) h+h'' vs 2[c+c]: 4.17466438509032 4.17466438509032
+(b) h+h'' vs 2[c+c]: 5.96679819257946 5.96679819257946
+(c) speed identity residual: 0
+(d) gauge EL residual: [0, 0, 0]
+(e) EL of sqrt(1+vz^2) on uniform-B solutions: [0, 0, 0]
