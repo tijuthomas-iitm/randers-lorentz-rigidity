@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper."
+title: "Code for: When do charged-particle trajectories determine their geometry?"
+authors:
+  - family-names: Bouhrik
+    given-names: Faik
+  - family-names: Thomas
+    given-names: Tiju
+    affiliation: "Indian Institute of Technology Madras"
+version: 0.1.0
+date-released: "2026-10-06"
+# doi: to be added after the Zenodo release
